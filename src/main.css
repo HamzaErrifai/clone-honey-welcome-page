@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ff-fredoka {
+  font-family: "Fredoka", sans-serif;
+}
