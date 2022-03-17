@@ -23,17 +23,17 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="fixed z-50 pl-12 pt-6">
+    <nav class="sm:fixed block z-50 pl-12 pt-6">
       <a
         href="/src/index.html"
         class="subpixel-antialiased font-bold text-gray-700 text-3xl ff-fredoka"
         >Hamza</a
       >
     </nav>
-    <div class="grid grid-cols-2 h-screen">
+    <div class="sm:grid grid-cols-2 h-screen block sm:pt-10">
       <div class="bg-white h-screen-full flex items-center justify-center">
-        <div class="h-4/6 w-4/6 px-6 text-justify">
-          <h2 class="text-4xl font-semibold text-center">
+        <div class="h-4/6 sm:w-4/6 w-4/5 sm:px-6 px-0 text-justify">
+          <h2 class="text-4xl font-semibold sm:text-center text-justify">
             Plus qu'une dernière étape
           </h2>
           <p class="my-3 text-s font-semibold">
@@ -44,28 +44,28 @@
           <div class="flex flex-col mt-8">
             <a
               href="#"
-              class="border border-gray-400 text-center rounded-sm py-3 px-5 my-1 font-semibold"
+              class="border border-gray-400 hover:bg-slate-50 text-center rounded-sm py-3 px-5 my-1 font-semibold"
             >
               <i class="fa-brands text-xl fa-google text-red-800"></i>
               S'inscrire avec Google
             </a>
             <a
               href="#"
-              class="border border-gray-400 text-center rounded-sm py-3 px-5 my-1 font-semibold"
+              class="border border-gray-400 hover:bg-slate-50 text-center rounded-sm py-3 px-5 my-1 font-semibold"
             >
               <i class="fa-brands text-xl fa-facebook-square text-blue-800"></i>
               S'inscrire avec Facebook
             </a>
             <a
               href="#"
-              class="border border-gray-400 text-center rounded-sm py-3 px-5 my-1 font-semibold"
+              class="border border-gray-400 hover:bg-slate-50 text-center rounded-sm py-3 px-5 my-1 font-semibold"
             >
               <i class="fa-brands text-xl fa-paypal text-blue-500"></i>
               S'inscrire avec PayPal
             </a>
             <a
               href="#"
-              class="border border-gray-400 text-center rounded-sm py-3 px-5 my-1 font-semibold"
+              class="border border-gray-400 hover:bg-slate-50 text-center rounded-sm py-3 px-5 my-1 font-semibold"
             >
               <i class="fa-brands text-xl fa-apple"></i> S'inscrire avec Apple
             </a>
@@ -79,12 +79,16 @@
               <a href="#" class="underline text-blue-600">Connection</a>
             </div>
             <div class="py-3 font-light">
-              <a href="#" class="underline text-sm text-gray-600">Je m'inscrirai plus tard</a>
+              <a href="#" class="underline text-sm text-gray-600"
+                >Je m'inscrirai plus tard</a
+              >
             </div>
           </div>
         </div>
       </div>
-      <div class="bg-blue-50 h-screen-full flex items-center justify-center">
+      <div
+        class="bg-blue-50 h-screen-full sm:flex hidden items-center justify-center"
+      >
         <div class="h-3/5 w-4/5 flex items-center justify-center">
           <img
             class="w-4/6"
